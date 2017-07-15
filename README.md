@@ -7,6 +7,7 @@
 
 ```
 git push heroku `git subtree split --prefix #subdir_name# master`:master --force
+git push heroku `git subtree split --prefix sample_app master`:master
 ```
 
 # Documents
