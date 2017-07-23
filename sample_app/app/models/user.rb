@@ -76,7 +76,7 @@ class User < ApplicationRecord
   end
   
   def feed
-    Micropost.where("user_id = ?", id)
+    Micropost.where("user_id = ?", id) # microposts  としないのは完全なステータスフィードで応用がきくかららしい
   end
   
   # ユーザーをフォローする
